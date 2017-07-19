@@ -46,3 +46,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 gem 'carrierwave-aws'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'carrierwave-postgresql', github: 'harley/carrierwave-postgresql', branch: 'update-carrierwave-version'
+gem 'postgresql_lo_streamer'

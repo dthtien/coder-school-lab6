@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/harley/carrierwave-postgresql.git
+  revision: 22b4cb8026e9915be0792d82a7ca5ff5dafff240
+  branch: update-carrierwave-version
+  specs:
+    carrierwave-postgresql (0.2.1)
+      carrierwave (>= 0.10.0, < 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -168,6 +176,8 @@ GEM
       shellany (~> 0.0)
     orm_adapter (0.5.0)
     pg (0.18.4)
+    postgresql_lo_streamer (1.1.0)
+      rails (>= 4.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -303,6 +313,7 @@ DEPENDENCIES
   capybara (~> 2.7.1)
   carrierwave
   carrierwave-aws
+  carrierwave-postgresql!
   coffee-rails (~> 4.2)
   database_cleaner
   devise
@@ -316,6 +327,7 @@ DEPENDENCIES
   launchy
   listen (~> 3.0.5)
   pg
+  postgresql_lo_streamer
   puma (~> 3.0)
   rails (~> 5.0, >= 5.0.2)
   rails_12factor
